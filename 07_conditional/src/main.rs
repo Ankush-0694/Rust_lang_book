@@ -11,11 +11,9 @@ fn main() {
         println!("number is not divisible by 4, 3, or 2");
     }
 
-
     let number = if true { 5 } else { 6 };
     println!("number is {}", number);
 
-    let number = if condition { 5 } else { "six" }; // this will return an error
-    println!("number is {}", number);
-
+    // let number = if number == 5 { 5 } else { "six" }; // this will return an error
+    // println!("number is {}", number);
 }
