@@ -42,11 +42,11 @@ fn main() {
 }
 
 // // we can use shorthand for same key and value pair -> not calling this function yet
-// fn build_user(email: String, username: String) -> User {
-//     User {
-//         email,
-//         username,
-//         active: true,
-//         sign_in_count: 1,
-//     }
-// }
+fn build_user(email: String, username: String) -> User {
+    User {
+        email,
+        username,
+        active: true,
+        sign_in_count: 1,
+    }
+}
