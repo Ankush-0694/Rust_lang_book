@@ -1,9 +1,13 @@
+mod method_implement;
+
+
 struct User {
     active: bool,
     username: String,
     email: String,
     sign_in_count: u64,
 }
+
 
 
 // tuple struct
@@ -38,6 +42,8 @@ fn main() {
 
     println!("{:#?}", black);
 
+
+    method_implement:: run();
 
 }
 
